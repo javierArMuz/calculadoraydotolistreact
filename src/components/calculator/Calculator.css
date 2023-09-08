@@ -1,0 +1,71 @@
+/* Button Styles */
+.button-container {
+  height: 83px;
+  display: flex;
+  /* TenganElMismoAncho */
+  flex: 1 1;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 38px;
+  background-color: #1b1b32;
+  color: white;
+  border-radius: 25px;
+  border: 2px solid white;
+  margin: 4px;
+  cursor: pointer;
+  /* impideSeleccionarElTexto */
+  user-select: none;
+}
+
+.button-container:hover {
+  background-color: #5a01a7;
+}
+
+.operator {
+  background-color: #00471b;
+}
+
+.operator:hover {
+  background-color: #ff6600;
+}
+
+/* Button Clear Styles */
+.button-clear {
+  height: 80px;
+  font-size: 1.6em;
+  display: flex;
+  flex: 1;
+  background-color: #ac0246;
+  margin-top: 8px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+  /* impideSeleccionarElTexto */
+  user-select: none;
+}
+
+.button-clear:hover {
+  background-color: #ebb000;
+}
+
+/* Screen Styles */
+.input {
+  height: 75px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-weight: bold;
+  font-size: 30px;
+  background-color: #0a0a23;
+  color: white;
+  padding: 11px 30px 11px 11px;
+  border: 1px solid #888;
+  box-shadow: -1px 4px 1px 1px white;
+}

@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+}
+
+.App {
+  min-height: 100vh;
+  padding-top: 10px;
+  background-color: #adadbb;
+  font-family: Lato, sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Calculator Container Styles */
+.container-calculator {
+  width: 400px;
+  height: 600px;
+  padding: 14px;
+  background-color: #99c9ff;
+  border-radius: 20px;
+  border: 5px solid white;
+}
+
+.row {
+  margin: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Task Styles */
+.tasks-list-main {
+  width: 600px;
+  min-height: 500px;
+  background-color: #d0d0d5;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 26px;
+}
+
+h1 {
+  font-size: 25px;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  margin: 20px 0;
+}
+
+hr {
+  margin-top: 20px;
+  border-top: 1px solid rgba(78, 74, 74, 0.377);
+  width: 85%;
+}
